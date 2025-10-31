@@ -69,8 +69,7 @@ def create(request):
          Todo.objects.create(title=title, describtion=describtion)
 """         
        
-    
-      else:
+    else:
         
         form = TodoForm()
         context = {
